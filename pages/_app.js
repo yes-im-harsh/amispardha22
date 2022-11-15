@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -7,6 +8,7 @@ function MyApp({ Component, pageProps }) {
       <div className="overflow-hidden">
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </div>
     </>
   );

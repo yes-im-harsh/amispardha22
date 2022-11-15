@@ -4,8 +4,10 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <div className="overflow-hidden">
+        <Navbar />
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }

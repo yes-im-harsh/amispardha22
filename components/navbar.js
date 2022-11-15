@@ -9,7 +9,7 @@ import { Navbar, Button } from "flowbite-react";
 const navbar = () => {
   return (
     <Navbar
-      class=" px-2 py-2.5 sm:px-4 border-b-0 bg-[#ECF0FB]"
+      class="px-2 py-2.5 sm:px-4 border-b-0 bg-[#ECF0FB]"
       fluid={true}
       rounded={true}
     >

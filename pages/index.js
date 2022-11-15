@@ -1,12 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Button } from "flowbite-react";
-import Work from "../public/Work.jpg";
+// import Work from "../public/Work.jpg";
+import Work from "../public/Amispardha2.jpg";
+import TimelineComponent from "../components/TimelineComponent";
+import { HiArrowNarrowRight } from "react-icons/hi";
 
 export default function Home() {
   return (
     <>
-      <div className="bg-[#ECF0FB] w-full h-screen overflow-hidden flex flex-col justify-between">
+      <div className=" bg-white w-full h-screen overflow-hidden flex flex-col justify-between">
         {/* <svg
           className="banner-bottom absolute bottom-0 w-[100%] left-0 z-0 overflow-hidden"
           xmlns="http://www.w3.org/2000/svg"
@@ -29,14 +32,19 @@ export default function Home() {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />{" "}
               Iure quod esse incidunt aut quisquam tempore ullam
             </p>
-            <Button className="my-4">Register</Button>
+            <Button className="my-4">
+              Register
+              <HiArrowNarrowRight className="ml-2 h-3 w-3" />
+            </Button>
           </div>
 
           <div>
-            <Image src={Work} alt="Work" className="w-full"></Image>
+            <Image src={Work} alt="Work" className="w-full h-auto"></Image>
           </div>
         </div>
       </div>
+
+      <TimelineComponent />
     </>
   );
 }

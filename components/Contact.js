@@ -49,8 +49,8 @@ const Contact = () => {
           Contact Us
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-          Got any questions? We'd love to hear from you. Send us a message and
-          we will respond as soon as possible.
+          Got any questions? We&apos;d love to hear from you. Send us a message
+          and we will respond as soon as possible.
         </p>
         <form ref={form} onSubmit={sendEmail} className="space-y-8">
           <div>

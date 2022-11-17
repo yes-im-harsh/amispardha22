@@ -162,7 +162,7 @@ const about = () => {
                 </Timeline.Title>
                 <Timeline.Body>
                   1. Video (Good video & audio quality) of model/exhibit not
-                  more than 3 minutes is uploaded on participant's Google's
+                  more than 3 minutes is uploaded on participant&apos;s Google&apos;s
                   drive and link of the same be shared by the participants on
                   the Whatsapp group. While uploading you have to mention Title,
                   Theme, Sub-theme, your Name, Class and Category. <br /> 2.

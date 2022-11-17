@@ -5,7 +5,6 @@ import { Button } from "flowbite-react";
 import Work from "../public/Amispardha2.jpg";
 import TimelineComponent from "../components/TimelineComponent";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Footer from "../components/Footer";
 import Link from "next/link";
 
 export default function Home() {

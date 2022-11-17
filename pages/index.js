@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Button } from "flowbite-react";
-// import Work from "../public/Work.jpg";
-import Work from "../public/Amispardha2.jpg";
 import TimelineComponent from "../components/TimelineComponent";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Link from "next/link";
@@ -42,8 +40,8 @@ export default function Home() {
         </div>
 
         <div>
-          <Image
-            src="/dummy.png "
+          <img
+            src="/dummy.png"
             alt=""
             height={550}
             width={600}

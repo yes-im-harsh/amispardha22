@@ -5,7 +5,7 @@ const about = () => {
     <>
       <div className="about_section">
         <div className="about_img">
-          <Image src="/image.png " alt="" height={500} width={500} />
+          <img src="/image.png" alt="" height={500} width={500} />
         </div>
         <div className="about_content ">
           <h1 className="title">About AmiSpradha 2022</h1>

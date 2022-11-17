@@ -6,7 +6,7 @@ const about = () => {
     <>
       <div className="about_section">
         <div className="about_img">
-          <Image src="/image.png " alt="" height={500} width={500} />
+          <img src="/image.png" alt="" height={500} width={500} />
         </div>
         <div className="about_content ">
           <h1 className="title text-xl md:text-3xl lg:text-5xl mt-3  mb-[0.85rem] text-[#1A56DB]">

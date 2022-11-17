@@ -21,7 +21,7 @@ a {
 
 /* About Section */
 .title {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   justify-content: center;
   display: flex;
 }
@@ -75,14 +75,11 @@ a {
   }
 }
 
-
-
 .hometitle {
   font-size: 40px;
   color: rgb(0, 0, 164);
   font-weight: 500;
   margin-bottom: 10px;
-
 }
 
 .home_section {
@@ -130,4 +127,9 @@ a {
 
 .timeh1 {
   padding: 10px 2px 2rem;
+}
+
+.about-title {
+  color: #1a56db;
+  margin: 10px 0;
 }

@@ -33,10 +33,10 @@ const TimelineComponent = () => {
         <Timeline.Item>
           <Timeline.Point icon={HiCalendar} />
           <Timeline.Content>
-            <Timeline.Time>30th November 2022</Timeline.Time>
+            <Timeline.Time>28th November 2022</Timeline.Time>
             <Timeline.Title>Registration will close</Timeline.Title>
             <Timeline.Body>
-              Registration will close on 2022. So, register Now.
+              Registration will close on 28th November 2022. So, register Now.
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>
@@ -44,7 +44,7 @@ const TimelineComponent = () => {
           <Timeline.Point icon={HiCalendar} />
           <Timeline.Content>
             <Timeline.Time>1st December 2022</Timeline.Time>
-            <Timeline.Title>Main Event</Timeline.Title>
+            <Timeline.Title>Amispardha 2.0</Timeline.Title>
             <Timeline.Body>
               Final Day for the event All the participants will be judged and
               the winners will be announced.

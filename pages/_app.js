@@ -1,5 +1,7 @@
+import { ToastContainer } from "react-toastify";
 import Footer from "../components/footer";
 import NavbarComponent from "../components/navbar";
+import "react-toastify/dist/ReactToastify.css";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -9,6 +11,7 @@ function MyApp({ Component, pageProps }) {
         <NavbarComponent />
         <Component {...pageProps} />
         <Footer />
+        <ToastContainer />
       </div>
     </>
   );

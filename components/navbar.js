@@ -6,38 +6,28 @@ import { useRouter } from "next/router";
 import { AiOutlineAlignRight } from "react-icons/ai";
 import { Navbar, Button } from "flowbite-react";
 
-const navbar = () => {
+const NavbarComponent = () => {
   return (
     <Navbar
-      class="px-2 py-2.5 sm:px-4 border-b-0 bg-[#ECF0FB]"
+      className="px-2 py-2.5 sm:px-4 border-b-0 "
       fluid={true}
       rounded={true}
     >
-      <Navbar.Brand href="https://flowbite.com/">
-        <img
-          src="https://flowbite.com/docs/images/logo.svg"
-          className="mr-3 h-6 sm:h-9"
-          alt="Flowbite Logo"
-        />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite
-        </span>
-      </Navbar.Brand>
-      <div className="flex md:order-2">
-        <Button className="hidden">Register</Button>
+      <Image src="/amitylogo.png" height={50} width={150} alt="AmityLogo" />
+
+      <div className="hamburger flex md:order-2">
+        {/* <Button className="hidden">Register</Button> */}
         <Navbar.Toggle />
       </div>
-      <Navbar.Collapse>
-        <Navbar.Link href="/" active={true}>
-          Home
-        </Navbar.Link>
+      <Navbar.Collapse className="navright">
+        <Navbar.Link href="/">Home</Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="/timeline">Timeline</Navbar.Link>
         {/* <Navbar.Link href="/navbars">Pricing</Navbar.Link> */}
-        <Navbar.Link href="/navbars">Contact</Navbar.Link>
+        <Navbar.Link href="/contact">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
 };
 
-export default navbar;
+export default NavbarComponent;

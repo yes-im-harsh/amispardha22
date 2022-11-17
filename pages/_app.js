@@ -1,12 +1,12 @@
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
+import NavbarComponent from "../components/Navbar";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="overflow-hidden">
-        <Navbar />
+      <div className="overflow-hidden fullcontain">
+        <NavbarComponent />
         <Component {...pageProps} />
         <Footer />
       </div>

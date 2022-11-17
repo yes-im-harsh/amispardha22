@@ -1,4 +1,8 @@
-/* html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
 body {
   padding: 0;
   margin: 0;
@@ -13,8 +17,117 @@ a {
 
 * {
   box-sizing: border-box;
-} */
+}
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* About Section */
+.title {
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.about_section {
+  margin-bottom: 1rem;
+  width: 80%;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  background: #fff;
+  box-shadow: 0px 14px 14px rgba(34, 35, 58, 0.2);
+  padding: 25px;
+  border-radius: 25px;
+  height: fit-content;
+  transition: all 0.3s;
+
+  @media screen and (max-width: 992px) {
+    max-width: 680px;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    min-height: 500px;
+    height: auto;
+    margin: 180px auto;
+  }
+
+  @media screen and (max-height: 500px) and (min-width: 992px) {
+    height: 350px;
+  }
+}
+
+.about_img img {
+  margin: -60px auto -55px;
+}
+
+/* Home section */
+
+.homecontainer {
+  display: flex;
+}
+
+.homeimg img {
+  margin: 2px 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .homecontainer {
+    flex-direction: column-reverse;
+  }
+}
+
+
+
+.hometitle {
+  font-size: 40px;
+  color: rgb(0, 0, 164);
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+
+.home_section {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  /* background: #fff; */
+  /* box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2); */
+  padding: 25px;
+  border-radius: 25px;
+  height: fit-content;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .home_section {
+    width: 90%;
+  }
+}
+
+.Navsection {
+  margin-left: 4rem;
+  width: 60rem;
+}
+
+.fullcontain {
+  max-width: 1280px;
+  margin: -3rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.timelinetitle {
+  font-size: 1rem;
+  color: rgb(4, 4, 87);
+}
+
+.timeline {
+  transform: translateX(2%);
+}
+
+.timeh1 {
+  padding: 10px 2px 2rem;
+}

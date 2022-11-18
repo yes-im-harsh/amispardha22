@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Button } from "flowbite-react";
+import { Avatar, Button } from "flowbite-react";
 import Work from "../public/Amispardha2.jpg";
 import TimelineComponent from "../components/TimelineComponent";
 import { HiArrowNarrowRight } from "react-icons/hi";
@@ -42,6 +42,164 @@ export default function homepage() {
             className="w-full h-auto"
           />
         </div>
+      </div>
+
+      <div className="flex mx-10 flex-row justify-evenly flex-wrap items-center gap-5">
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Contributer
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Organizer
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Volunteer
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        <Avatar
+          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+          rounded={true}
+        >
+          <div className="space-y-1 font-medium dark:text-white">
+            <div>Jese Leos</div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              Co-Ordination
+            </div>
+          </div>
+        </Avatar>
+        
       </div>
       {/* <div className=" bg-white w-full h-screen  flex flex-col justify-between">
       

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "flowbite-react";
 import TimelineComponent from "../components/TimelineComponent";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { AiOutlineDownload } from "react-icons/ai";
 import Link from "next/link";
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
       <div className="homecontainer">
         <div class="home_section">
           <div class="about_content">
-            <h1 class="hometitle">Welcome To AmiSpardha 2.0</h1>
+            <h1 class="hometitle">Welcome To Amispardha 2.0</h1>
             <span className="text-[#3A4458] font-semibold text-xl">
-              &apos;Pitching ideas that can change the society&apos;
+              Amity Science Techno Festival 2022
             </span>
             <br />
             <p className="mt-3">
@@ -26,16 +27,28 @@ export default function Home() {
               and a mindset of problem solving.
             </p>
             <br />
-            <Button className="my-4">
-              <Link
-                href="https://forms.gle/YdoQBvQfBJqjreDQ8"
-                className="flex justify-center items-center"
-                target="_blank"
-              >
-                Register
-                <HiArrowNarrowRight className="ml-2 h-3 w-3" />
-              </Link>
-            </Button>
+            <div className="flex flex-row flex-wrap">
+              <Button className="my-4">
+                <Link
+                  href="https://forms.gle/YdoQBvQfBJqjreDQ8"
+                  className="flex justify-center items-center"
+                  target="_blank"
+                >
+                  Register
+                  <HiArrowNarrowRight className="ml-2 h-3 w-3" />
+                </Link>
+              </Button>
+              <Button className="my-4 ml-4">
+                <Link
+                  href="#"
+                  className="flex justify-center items-center"
+                  target="_blank"
+                >
+                  Brochure
+                  <AiOutlineDownload className="ml-2 text-lg" />
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
 

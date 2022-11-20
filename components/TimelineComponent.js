@@ -7,13 +7,13 @@ const TimelineComponent = () => {
   return (
     <div className="timeline mx-10">
       <h1 className="timeh1 text-5xl font-semibold mt-4 text-[#1A56DB]">
-        Amispradha 2.0 Timeline
+        AmiSpradha 2.0 Timeline
       </h1>
       <Timeline>
         <Timeline.Item>
           <Timeline.Point icon={HiCalendar} />
           <Timeline.Content>
-            <Timeline.Time>17th November 2022</Timeline.Time>
+            <Timeline.Time>21st November 2022</Timeline.Time>
             <Timeline.Title>Participants Registration Started</Timeline.Title>
             <Timeline.Body>
               You can now register for the event. The registration is live now.

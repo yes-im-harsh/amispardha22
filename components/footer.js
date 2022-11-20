@@ -31,7 +31,9 @@ const Footer = () => {
             <BsLinkedin className="w-[21px] h-[21px] object-contain cursor-pointer mr-6 text-[#6B7280]" />
           </Link>
 
-          <BsTwitter className="w-[21px] h-[21px] object-contain cursor-pointer mr-0 text-[#6B7280]" />
+          <Link href="https://twitter.com/amity_patna?lang=en" target="_blank">
+            <BsTwitter className="w-[21px] h-[21px] object-contain cursor-pointer mr-0 text-[#6B7280]" />
+          </Link>
         </div>
       </div>
     </section>

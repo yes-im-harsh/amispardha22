@@ -12,7 +12,7 @@ export default function Home() {
       <div className="homecontainer">
         <div class="home_section">
           <div class="about_content">
-            <h1 class="hometitle">Welcome To Amispardha 2.0</h1>
+            <h1 class="hometitle">Welcome To AmiSpardha 2.0</h1>
             <span className="text-[#3A4458] font-semibold text-xl">
               Amity Science Techno Festival 2022
             </span>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button, Timeline } from "flowbite-react";
+import Link from "next/link";
 const event = () => {
   return (
     <>
@@ -8,10 +9,10 @@ const event = () => {
         <div className="about_img">
           <img src="/image.png" alt="" height={500} width={500} />
         </div>
-        <div className="about_content ">
+        <div className="about_content">
           <h1 className="title text-xl md:text-3xl lg:text-5xl mt-3  mb-[0.85rem] text-[#1A56DB]">
             {" "}
-            Amispardha 2022
+            AmiSpardha 2022
           </h1>
           <h2 className=" text-sm md:text-3xl lg:text-2xl mb-3  text-center">
             <span className="text-[#1A56DB] font-semibold">Theme:</span>{" "}
@@ -124,7 +125,7 @@ const event = () => {
                 {/* <Timeline.Time>February 2022</Timeline.Time> */}
                 <Timeline.Title>
                   <div className=" font-medium">
-                    <span className="text-[#1A56DB] font-semibold">
+                    <span className="text-[#1A56DB] font-semibold leading-10">
                       Guidlines:
                     </span>
                   </div>
@@ -142,17 +143,21 @@ const event = () => {
                 {/* <Timeline.Time>February 2022</Timeline.Time> */}
                 <Timeline.Title>
                   <div className=" font-medium">
-                    <span className="text-[#1A56DB] font-semibold">
+                    <span className="text-[#1A56DB] font-semibold leading-10">
                       Stage 1:
                     </span>{" "}
                     Registration
                   </div>
                 </Timeline.Title>
                 <Timeline.Body>
+                  <span className="font-medium text-red-400 leading-6">
+                    Eligibility:{" "}
+                  </span>{" "}
+                  <br />
+                  &#x2022; Senior Level Category (class 9 to 12) <br /> &#x2022;
+                  UG/PG Level Category: Amity Students / Open Category <br />{" "}
                   &#x2022; There will be individual participation and
                   participants must register online through Website <br />{" "}
-                  &#x2022; Senior Level Category (class 9 to 12) <br /> &#x2022;
-                  UG/PG Level Category: Amity Students / Open Category
                 </Timeline.Body>
               </Timeline.Content>
             </Timeline.Item>
@@ -162,20 +167,23 @@ const event = () => {
                 {/* <Timeline.Time>February 2022</Timeline.Time> */}
                 <Timeline.Title>
                   <div className=" font-medium">
-                    <span className="text-[#1A56DB] font-semibold">
+                    <span className="text-[#1A56DB] font-semibold leading-10">
                       Stage 2:
                     </span>{" "}
                     Uploading Video & Presentation
                   </div>
                 </Timeline.Title>
                 <Timeline.Body>
-                  1. Video (Good video & audio quality) of model/exhibit not
-                  more than 3 minutes is uploaded on participant&apos;s
-                  Google&apos;s drive and link of the same be shared by the
-                  participants on the Whatsapp group. While uploading you have
-                  to mention Title, Theme, Sub-theme, your Name, Class and
-                  Category. <br /> 2. These videos & Presentation will be
-                  examined by the panel of judges. <br />
+                  1. Video (Good video & audio quality) of model/ exhibit not
+                  more than 3 minutes. Participants should email the video and
+                  presentation to the following Email ID:{" "}
+                  <span className="font-medium text-red-400">
+                    amispardha2@gmail.com.
+                  </span>{" "}
+                  While uploading you have to mention Title, Theme, Sub-theme,
+                  your Name, Class and Category.
+                  <br /> 2. These videos & Presentation will be examined by the
+                  panel of judges. <br />
                   3. Best 10 videos of models/exhibits their write-ups will be
                   shortlisted after screening by the panel of judges.
                 </Timeline.Body>
@@ -187,7 +195,7 @@ const event = () => {
                 {/* <Timeline.Time>February 2022</Timeline.Time> */}
                 <Timeline.Title>
                   <div className=" font-medium">
-                    <span className="text-[#1A56DB] font-semibold">
+                    <span className="text-[#1A56DB] font-semibold leading-10">
                       Stage 3:
                     </span>{" "}
                     Offline Presentations of Selected Models
@@ -236,28 +244,35 @@ const event = () => {
                     with Medal, Merit Certificate & kit for all participants.
                     <br />
                     &nbsp; &#x2022; &nbsp;{" "}
-                    <span className="text-red-500">1st Prize: Rs. 5000.00</span>
+                    <span className="text-red-500">
+                      1st Prize: &#8377;5000.00
+                    </span>
                     <br />
                     &nbsp; &#x2022; &nbsp;{" "}
-                    <span className="text-red-500">2nd Prize: Rs. 3000.00</span>
-                    <br /> All other participants and guide teachers will get
+                    <span className="text-red-500">
+                      2nd Prize: &#8377;3000.00
+                    </span>
+                    <br /> ( All other participants and guide teachers will get
                     their certificates according to the level of participation
-                    of the models
+                    of the models )
                   </span>{" "}
                   <br />
                   <br />
                   <span>
-                    <b> Important:</b>
+                    <b className="leading-10"> Important:</b>
                     <br />
                     • Models should be judged on its working, innovation,
                     socio-effectiveness, cost-effective and according to the
-                    level of classes of the students. <br />
-                    • The winner of the event will get the opportunity to
-                    present their idea at pioneeRDom 2.0 &apos;&apos;idea
-                    pitchathon&apos;&apos; (event going to be organized by Amity
-                    Innovation and Incubation Centre, Amity University Patna)
-                    and through this they will get a chance to establish a
-                    startup with a seed amount upto Rs. 200000.00. *
+                    level of classes of the students. <br />• The winner of the
+                    event will get the opportunity to present their idea at
+                    pioneeRDom 2.0 &apos;&apos;idea pitchathon&apos;&apos;
+                    (event going to be organized by Amity Innovation and
+                    Incubation Centre, Amity University Patna) and through this
+                    they will get a chance to establish a startup with a seed
+                    amount upto{" "}
+                    <span className="text-red-500 font-medium">
+                      &#8377;2000000.00{" "}
+                    </span>
                     <br />
                     • The decision of the jury will be final and can&apos;t be
                     challenged.

@@ -22,9 +22,10 @@ const NavbarComponent = () => {
       <Navbar.Collapse className="navright">
         <Navbar.Link href="/">Home</Navbar.Link>
         <Navbar.Link href="/event">Event</Navbar.Link>
-        <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="/timeline">Timeline</Navbar.Link>
         {/* <Navbar.Link href="/navbars">Pricing</Navbar.Link> */}
+        <Navbar.Link href="/team">Team</Navbar.Link>
+        <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="/contact">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

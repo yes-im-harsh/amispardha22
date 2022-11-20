@@ -6,7 +6,7 @@ const about = () => {
     <>
       <div className="about_section">
         <div className="amity_img">
-          <img src="/university.jpg " alt=""  className="mb-10"/>
+          <img src="/university.jpg " alt="" className="mb-10" />
         </div>
         <h1 className="text-center text-2xl">
           <b className="text-[#1A56DB]">AMITY UNIVERSITY, PATNA</b>

@@ -132,7 +132,7 @@ const Contact = () => {
                 ></path>
               </svg>
               <span>
-                Police Station, Bailey Rd, near Rupaspur, Rupaspur, Kaliket
+              Amity School of Engineering and Technology, Bailey Rd, near Rupaspur, Rupaspur, Kaliket
                 Nagar, Patna, Bihar 801503
               </span>
             </p>

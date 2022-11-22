@@ -264,17 +264,17 @@ const event = () => {
                     • Models should be judged on its working, innovation,
                     socio-effectiveness, cost-effective and according to the
                     level of classes of the students. <br />• The winner of the
-                    event will get the opportunity to present their idea at
+                    event may get the opportunity to present their idea at
                     pioneeRDom 2.0 &apos;&apos;idea pitchathon&apos;&apos;
                     (event going to be organized by Amity Innovation and
                     Incubation Centre, Amity University Patna) and through this
-                    they will get a chance to establish a startup with a seed
+                    they may get a chance to establish a startup with a seed
                     amount upto{" "}
                     <span className="text-red-500 font-medium">
                       &#8377;2000000.00{" "}
                     </span>
                     <br />
-                    • The decision of the jury will be final and can&apos;t be
+                    • The decision of the jury shall be final and can&apos;t be
                     challenged.
                     <br />
                   </span>

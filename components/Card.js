@@ -3,7 +3,7 @@ import { OrganisingTeam } from "../components/Teams";
 
 const Card = ({ name, about, role, img, job }) => {
   return (
-    <div className="flex flex-col justify-evenly shadow w-[301px] h-[350px] p-6 rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100">
+    <div className="flex flex-col justify-evenly  w-[249px] h-[350px]  rounded-xl  dark:bg-gray-900 dark:text-gray-100">
       <img
         src={img}
         alt="founder"

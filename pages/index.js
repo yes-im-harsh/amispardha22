@@ -40,9 +40,9 @@ export default function Home() {
               </Button>
               <Button className="my-4 ml-4">
                 <Link
-                  href="#"
+                  href="/brochure.pdf"
                   className="flex justify-center items-center"
-                  target="_blank"
+                  // download='/brochure.pdf'
                 >
                   Brochure
                   <AiOutlineDownload className="ml-2 text-lg" />

@@ -39,14 +39,15 @@ export default function Home() {
                 </Link>
               </Button>
               <Button className="my-4 ml-4">
-                <Link
-                  href="/brochure.pdf"
+                <a
+                  href="brochure.pdf"
+                  download={"brochure.pdf"}
                   className="flex justify-center items-center"
                   // download='/brochure.pdf'
                 >
                   Brochure
                   <AiOutlineDownload className="ml-2 text-lg" />
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
